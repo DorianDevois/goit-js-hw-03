@@ -25,7 +25,7 @@ const slugify = function (title) {
   return title.trim().toLowerCase().split(' ').join('-');
 };
 
-console.log(`----- Slug Generator -----`);
+console.log(`\n----- Slug Generator -----`);
 console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
 console.log(slugify('English for developer')); // "english-for-developer"
 console.log(slugify('Ten secrets of JavaScript')); // "ten-secrets-of-javascript"
